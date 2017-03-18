@@ -1,0 +1,12 @@
+1. READING ASSIGNMENT
+   Read the following papers, and submit a short summary for each paper.
+   - Pairwise Document Similarity in Large Collections with MapReduce
+
+2. Determine the average stock_price_adj_close value by the year.
+Choose an implementation in which a Reducer could be used as a Combiner. (discussed in the lecture, and available in the slides).
+ 
+3. Using the MoviLens dataset, determine the median and standard deviation of ratings per movie.
+Iterate through the given set of values and add each value to an in-memory list. The iteration also calculates a running sum and count.
+ 
+4. Redo Part 3 using Memory-Conscious Median and Standard Deviation implementation as explained in the Slides (MR Summarization Patterns Slides).
+Use a Combiner for optimization.
